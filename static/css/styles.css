@@ -1,0 +1,106 @@
+html{
+	font-family: "Avenir Next", Helevetica, sans-serif;
+	text-align: center;
+  height: 100%
+  }
+
+div {
+  box-sizing: border-box;
+}
+
+#lists {
+  background-color: #315C2B;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+  height: 100vh;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+/* #lists {
+  clear: both
+} */
+
+.list {
+  /* position: absolute; */
+  display: inline-block;
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 20%;
+  height: auto;
+  background-color: #C0C0C0;
+  border-radius: 10px;
+  box-shadow: 4px 6px #113f11;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 5px;
+
+}
+
+.inner-list {
+  position: relative;
+  margin-top: 5%;
+}
+
+.card {
+  border-radius: 5px;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 5px;
+  position: relative;
+  background-color: #FFFFFF;
+  box-shadow: 2px 4px #888888;
+  font-weight: normal;
+  font-size: 16px;
+  /* width: 100px; */
+
+}
+
+.card-spacing {
+  height: 10px;
+  background-color: #C0C0C0;
+}
+
+.add-card {
+  width: 80%;
+  height: 20px;
+}
+
+.add-button {
+  width: 80%;
+  height: 20px;
+}
+
+input[type="text"] {
+  font-family: "Avenir Next", Helevetica, sans-serif;
+  text-align: center;
+  border-style:none;
+  width: 80%;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #C0C0C0;
+}
+
+input:focus{
+outline: none;
+}
+
+#addEmptyList {
+  position: relative;
+}
+/* div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+} */
